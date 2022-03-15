@@ -1,5 +1,5 @@
 import React from 'react'
-import {Logo} from '../Logo'
+import Logo from '../Logo'
 
 import { Box, Heading,  Flex, HStack} from '@chakra-ui/react'
 
@@ -16,7 +16,7 @@ function Header() {
         top='0'
         width='full'
         shadow='sm'
-        height='8vh'
+        height='17vh'
         bg='solid'
       >
         
@@ -28,7 +28,7 @@ function Header() {
          <Heading size='2xl' >Angela Yen | Software Developer</Heading>
          </Box>
          <HStack align='right'>
-      <Box marginLeft='70vh' justifySelf="flex-end">
+      <Box marginLeft='50vh' justifySelf="flex-end">
        <ColorModeSwitcher  margin='1vh'/> 
        </Box> 
        </HStack>
