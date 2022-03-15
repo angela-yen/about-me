@@ -12,11 +12,12 @@ function Header() {
  
     <Box
         zIndex='sticky'
-        position='fixed'
+        // position='fixed'
         top='0'
         width='full'
         shadow='sm'
         height='8vh'
+        bg='solid'
       >
         
    <Flex paddingX='6' paddingY='4'>
