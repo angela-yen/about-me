@@ -1,25 +1,18 @@
 import React from 'react';
-import {
-  ChakraProvider,
-  Box,
-  Text,
-  Link,
-  VStack,
-  Code,
-  Grid,
-  theme,
-  Heading,
-} from '@chakra-ui/react';
-import { ColorModeSwitcher } from './ColorModeSwitcher';
+import { Box } from '@chakra-ui/react';
 import Header from './components/Header';
 import AboutMe from './components/AboutMe';
+import Skills from './components/Skills'
 
 function App() {
   return (
     <Box>
-      <Header />
+      <Header marginTop = '20' marginBottom = '20' />
         <Box marginTop='20' paddingY='6' paddingX='12'>
          <AboutMe />
+         </Box>
+         <Box>
+         <Skills />
        </Box>
     </Box>
   );

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Box, Text, Grid, VStack, Heading} from '@chakra-ui/react'
+import { Box, Text, Grid, VStack, Heading, Flex, Center} from '@chakra-ui/react'
 
 
 
@@ -8,20 +8,24 @@ function AboutMe() {
   
   return (
     <>
-     <Box maxW='sm' borderWidth='1px' borderRadius='lg' overflow='hidden'>
-       <Grid position='center' minH="20vh" p={3}>
+      <Center>
+     <Box maxW='lg' borderWidth='1px' borderRadius='lg' overflow='hidden'>
+     
+       <Grid  minH="20vh" p={3}>
         
-          <VStack spacing={8}>
+          <VStack spacing={6}>
             <Heading>
               Hi there! 
             </Heading>
             <Text>
-              My name is Angela and I am a software developer
+            I am a software developer passionate about bringing diversity and curiosity into the industry. To me, diversity means empowering people who bring stories and knowledge that hold value and unique perspectives. I have always had a strength and interest in logical thinking and problem solving, which initially sparked my desire to study mathematics. Equally, I have a passion for bringing people together and using the power of technology to solve social issues. In the future, I see myself contributing to the tech section through creating software that involves wellbeing, connecting people and bringing the human into technology.
             </Text>
 
           </VStack>
         </Grid> 
+   
       </Box>
+      </Center>
     </>
   )
 }
