@@ -11,7 +11,7 @@ function SideBar() {
  
     <Box
         position='fixed'
-        top='45vh'
+        top='40vh'
         width='100px'
         height='full'
         right='5px'

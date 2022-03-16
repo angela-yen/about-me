@@ -48,9 +48,7 @@ function Projects() {
         
 
   </Box>
-  <Box w='100px' h='100px' bg='pink.100'>
-    3
-  </Box>
+
 </VStack>
 
 </Box>
