@@ -6,6 +6,7 @@ import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Footer from './components/Footer';
 import SideBar from './components/SideBar';
+import Interests from './components/Interests';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
          <AboutMe padding='60vh' />
          <Skills />
          <Projects />
+         <Interests />
        </VStack>
        </Box>
        <Box>
