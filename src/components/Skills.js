@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Box, HStack, Heading, Image,Container, Text} from '@chakra-ui/react'
+import { Box, HStack, Heading, Image} from '@chakra-ui/react'
 
 function Skills() {
 

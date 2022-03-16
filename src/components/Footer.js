@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Box, Center, Image, Text, HStack} from '@chakra-ui/react'
+import { Box, Center, Image} from '@chakra-ui/react'
 
 
 function Footer() {
@@ -21,3 +21,7 @@ function Footer() {
 }
 
 export default Footer
+
+
+
+

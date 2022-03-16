@@ -13,12 +13,12 @@ function Projects() {
     <Box >
       <HStack>
     <Container>
-      <Heading textAlign='center' p={3}>Rōpu</Heading>
+      <Heading textAlign='center' p={3}>Rōpū</Heading>
         <Text borderWidth='1px' borderRadius='lg' fontSize='2xl' p={5}>
         Rōpu is a reddit like platform for students to share knowledge, content, questions, events and to connect with other students. This was my final group project for my Enspiral Dev Academy graduation  
         </Text>
       </Container>
-    <Image boxSize='80vh' src='/ropu.png'></Image>
+    <Image boxSize='80vh' wiborderWidth='1px' borderRadius='lg' src='/ropu.png'></Image>
     </HStack>
   </Box>
   <Box w='100px' h='100px' bg='tomato'>

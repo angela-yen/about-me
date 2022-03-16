@@ -1,7 +1,7 @@
 import React from 'react'
 import Logo from '../Logo'
 
-import { Box, Heading,  Flex, HStack} from '@chakra-ui/react'
+import { Box, Heading,  Flex, HStack, Spacer} from '@chakra-ui/react'
 
 import { ColorModeSwitcher } from '../ColorModeSwitcher'
 
@@ -16,22 +16,21 @@ function Header() {
         top='0'
         width='full'
         shadow='sm'
-        height='17vh'
+        height='13vh'
         bg='solid'
       >
         
    <Flex paddingX='6' paddingY='4'>
      <Box flex = '1'>
        <HStack spacing='7'>
-         <Logo boxSize='60px'/>
-         <Box alignSelf='center'>
+         <Logo />
+         <Box >
          <Heading size='2xl' >Angela Yen | Software Developer</Heading>
          </Box>
-         <HStack align='right'>
-      <Box marginLeft='50vh' justifySelf="flex-end">
-       <ColorModeSwitcher  margin='1vh'/> 
+           <Spacer />
+      <Box >
+       <ColorModeSwitcher /> 
        </Box> 
-       </HStack>
        </HStack>
      </Box>
    </Flex>

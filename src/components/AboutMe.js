@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Box, Text, Grid, VStack, Heading, Flex, Center} from '@chakra-ui/react'
+import { Box, Text, Grid, VStack, Heading, Center} from '@chakra-ui/react'
 
 
 
