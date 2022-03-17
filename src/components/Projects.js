@@ -55,7 +55,7 @@ function Projects() {
       <Heading textAlign='center' p={3}>Pupparazzi</Heading>
         <Text borderWidth='1px' borderRadius='lg' fontSize='xl' p={3}>
         Pupparazzi was a project 
-        <HStack p={3}>
+        <HStack p={2}>
         <Box borderWidth='3px' borderRadius='lg'  p={3}> 
         React 
         </Box>
@@ -83,7 +83,7 @@ function Projects() {
     <Box>
       <HStack>
     <Container>
-      <Heading textAlign='center' p={3}>Bean Bag Scramble</Heading>
+      <Heading textAlign='center' p={3}>Bean Bag Booking System</Heading>
         <Text borderWidth='1px' borderRadius='lg' fontSize='xl' p={5}>
         Friday group project using react and random generator to create bean bag booking system and scrambler
        
