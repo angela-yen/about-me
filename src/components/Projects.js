@@ -17,9 +17,9 @@ function Projects() {
     <Box>
       <HStack>
     <Container>
-      <Heading textAlign='center' as='em'>Rōpū</Heading>
+      <Heading textAlign='center' p={3}>Rōpū</Heading>
         <Text borderWidth='3px' borderRadius='lg' fontSize='xl' p={5}>
-        Rōpu is a social media platform for students to share knowledge, content, questions, events and to connect with other students. The layout and format took inspirations from HackerRank and Reddit that aims to be simplistic and asseccible to create a easy to use interface.  
+        Rōpū is a social media platform for students to share knowledge, content, questions, events and to connect with other students. The layout and format took inspirations from HackerRank and Reddit that aims to be simplistic and asseccible to create a easy to use interface.  
         <br />
         <br />
         This was  created along with 4 other team memebers over a week. My role in this project was creating front end compoenents and deployment of the application. During this time, we encountered a few stressful moments where the application broke and we had a bug that was a result of renaming a componenet. Frequent communication and git management was the key to resolving these issues.
@@ -55,7 +55,7 @@ function Projects() {
   <Box>
       <HStack>
     <Container>
-      <Heading textAlign='center' p={3} as='em'>Pupparazzi</Heading>
+      <Heading textAlign='center' p={3} >Pupparazzi</Heading>
         <Text borderWidth='3px' borderRadius='lg' fontSize='xl' p={5}>
         Pupparazzi is an application that allows for people to update the owners and the name of the animals.
         <br />
@@ -89,7 +89,7 @@ function Projects() {
   <Box>
       <HStack>
     <Container>
-      <Heading textAlign='center' as='em' p={3}>Beanbag Booking System</Heading>
+      <Heading textAlign='center' p={3}>Beanbag Booking System</Heading>
         <Text borderWidth='3px' borderRadius='lg' fontSize='xl' p={5}>
         A beanbag booking system where you can double click on the beanbags, write your name on it and have it stored on the bag of your desires! If you refresh the page you will see that the beanbags will randomise in colour!
         <br />
@@ -120,9 +120,9 @@ function Projects() {
     </HStack>
   </Box>
   <Box>
-      <HStack>
+      <HStack spacing={5}>
     <Container>
-      <Heading textAlign='center' as='em' p={3}>MusoChat</Heading>
+      <Heading textAlign='center'  p={3}>MusoChat</Heading>
         <Text borderWidth='3px' borderRadius='lg' fontSize='xl' p={5}>
         This is my experiement project that I am currenty working on. The app consuming the Spotify Web API and encorporates at chat engine API that allows users to sit in a chat room and discuss music while listening to it. 
         <br />
