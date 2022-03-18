@@ -9,7 +9,7 @@ function AboutMe() {
   return (
     <>
       <Center>
-     <Box maxW='4xl' borderWidth='1px' borderRadius='lg' overflow='hidden'>
+     <Box maxW='4xl' borderWidth='5px' borderRadius='lg' overflow='hidden'>
      
        <Grid  minH="35vh" p={3}>
         

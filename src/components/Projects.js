@@ -17,8 +17,8 @@ function Projects() {
     <Box>
       <HStack>
     <Container>
-      <Heading textAlign='center' p={3}>Rōpū</Heading>
-        <Text borderWidth='1px' borderRadius='lg' fontSize='xl' p={5}>
+      <Heading textAlign='center' as='em'>Rōpū</Heading>
+        <Text borderWidth='3px' borderRadius='lg' fontSize='xl' p={5}>
         Rōpu is a social media platform for students to share knowledge, content, questions, events and to connect with other students. The layout and format took inspirations from HackerRank and Reddit that aims to be simplistic and asseccible to create a easy to use interface.  
         <br />
         <br />
@@ -55,9 +55,10 @@ function Projects() {
   <Box>
       <HStack>
     <Container>
-      <Heading textAlign='center' p={3}>Pupparazzi</Heading>
-        <Text borderWidth='1px' borderRadius='lg' fontSize='xl' p={5}>
+      <Heading textAlign='center' p={3} as='em'>Pupparazzi</Heading>
+        <Text borderWidth='3px' borderRadius='lg' fontSize='xl' p={5}>
         Pupparazzi is an application that allows for people to update the owners and the name of the animals.
+        <br />
         <br />
         This project was an exercise to practice using Express Routers and server side rendering for a Web application.
         <HStack p={3}>
@@ -88,9 +89,12 @@ function Projects() {
   <Box>
       <HStack>
     <Container>
-      <Heading textAlign='center' p={3}>Beanbag Booking System</Heading>
-        <Text borderWidth='1px' borderRadius='lg' fontSize='xl' p={5}>
-        Friday group project using react and random generator to create bean bag booking system and scrambler
+      <Heading textAlign='center' as='em' p={3}>Beanbag Booking System</Heading>
+        <Text borderWidth='3px' borderRadius='lg' fontSize='xl' p={5}>
+        A beanbag booking system where you can double click on the beanbags, write your name on it and have it stored on the bag of your desires! If you refresh the page you will see that the beanbags will randomise in colour!
+        <br />
+        <br />
+        This project was created with 3 other people as practice for using react componenets. During this experiences, I was mainly working on the frontend of the project creating redux components. 
         <HStack p={3}>
         <Box borderWidth='3px' borderRadius='lg'  p={3}> 
         React
@@ -118,8 +122,8 @@ function Projects() {
   <Box>
       <HStack>
     <Container>
-      <Heading textAlign='center' p={3}>MusoChat</Heading>
-        <Text borderWidth='1px' borderRadius='lg' fontSize='xl' p={5}>
+      <Heading textAlign='center' as='em' p={3}>MusoChat</Heading>
+        <Text borderWidth='3px' borderRadius='lg' fontSize='xl' p={5}>
         This is my experiement project that I am currenty working on. The app consuming the Spotify Web API and encorporates at chat engine API that allows users to sit in a chat room and discuss music while listening to it. 
         <br />
         <HStack p={3}>
