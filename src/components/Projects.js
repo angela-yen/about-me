@@ -125,7 +125,10 @@ function Projects() {
     <Container>
       <Heading textAlign='center' p={3}>Lumieer - E-Commerce Site</Heading>
         <Text borderWidth='3px' borderRadius='lg' fontSize='xl' p={5}>
-        I am currently in the process of building a shopify ecommerce website for my friend&aposs small business. It has been interesting and also challenging to learn how to use Node.js and React.js with shopify. The project is in it&aposs very early days with an end goal of a fully functional and commercial e-commerce site. 
+        I am currently in the process of building a shopify ecommerce website for my friend&apos;s small business. It has been interesting and also challenging to learn how to use Node.js and React.js with shopify. 
+        <br />
+        <br />
+        The project is in it&apos;s very early days with an end goal of a fully functional and commercial e-commerce site. 
         <br />
         <HStack p={3}>
         <Box borderWidth='3px' borderRadius='lg'  p={3}> 
@@ -157,7 +160,7 @@ function Projects() {
         This is my experiement project that I am currenty working on. The app consuming the Spotify Web API and encorporates at chat engine API that allows users to sit in a chat room and discuss music while listening to it. 
         <br />
         <br />
-        This project is in it&aposs early days and is occuring simultaniously with other projects. This is more of an interest project for me therefore, is currently taking lower priority in terms of tasks.
+        This project is in it&apos;s early days and is occuring simultaniously with other projects. This is more of an interest project for me therefore, is currently taking lower priority in terms of tasks.
         <br />
         <HStack p={3}>
         <Box borderWidth='3px' borderRadius='lg'  p={3}> 
