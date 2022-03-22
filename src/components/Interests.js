@@ -19,6 +19,7 @@ function Interests() {
             
                 <ListItem>Creating APIs</ListItem>
                 <ListItem>Technology helping mental health</ListItem>
+                <ListItem>Software targeting social issues</ListItem>
               </UnorderedList>
             </Box>
             </Box>
